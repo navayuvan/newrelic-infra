@@ -6,13 +6,13 @@ os: linux
 commands:
     metrics:
         command:
-          - ./bin/nri-nginx
+          - /home/nandha/Workspace/newrelic-infra/var/db/newrelic-infra/newrelic-integrations/bin/nri-nginx
           - -metrics
         interval: 30
 
     inventory:
         command:
-          - ./bin/nri-nginx
+          - /home/nandha/Workspace/newrelic-infra/var/db/newrelic-infra/newrelic-integrations/bin/nri-nginx
           - -inventory
         prefix: config/nginx
         interval: 60
