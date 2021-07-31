@@ -550,7 +550,7 @@ license_key: your_license_key
 # Default  : Linux: /var/db/newrelic-infra
 #          : Windows: C:\\Program Files\NewRelic\newrelic-infra\
 #
-#agent_dir:
+agent_dir: var/db/newrelic-infra
 #
 
 #
@@ -563,7 +563,7 @@ license_key: your_license_key
 # Default  : Linux: /etc/newrelic-infra/integrations.d/
 #          : Windows: C:\Program Files\New Relic\newrelic-infra\integrations.d
 #
-#plugin_dir:
+plugin_dir: etc/newrelic-infra/integrations.d/
 #
 
 #
